@@ -12,12 +12,12 @@ class Alloy_Target:
         self.url=url
 #爬虫代码
 def reptilian(AT,ct):
-# 代理服务器
-    proxyHost = "http-dyn.abuyun.com"
-    proxyPort = "9020"
+# 代理服务器,请用自己的代理
+    proxyHost = ""
+    proxyPort = ""
 # 代理隧道验证信息
-    proxyUser = "HU5W3F332U8B198D"
-    proxyPass = "A018D7750EF20402"
+    proxyUser = ""
+    proxyPass = ""
     proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
       "host" : proxyHost,
       "port" : proxyPort,
